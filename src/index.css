@@ -1,0 +1,459 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: rgb(238, 237, 237);
+    padding: 0;
+}
+
+.sample {
+    background: #12141a;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+ul {
+    display: inine-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+}
+
+li {
+    display: inline;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 10px;
+    margin: 5px;
+    color: gray;
+    font-weight: 500;
+}
+
+li:hover {
+    color: black;
+}
+
+.navbar {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 2px;
+    z-index: 1;
+}
+
+.detailCard {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+
+.detailHero {
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+
+.detailImage {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border-radius: 0px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.detailText {
+    width: -webkit-fill-available;
+    text-align: left;
+    padding: 10px;
+}
+
+h1 {
+    padding: 0px;
+    margin: 1% 0%;
+}
+
+h4 {
+    margin: 1% 0%;
+}
+
+.flex {
+    display: block;
+}
+
+ul .active {
+    padding: 0px
+}
+
+.navbar ul li {
+    display: none;
+}
+
+.providerComponent {
+    width: -webkit-fill-available !important;
+    height: 55px;
+    padding: 5px;
+    border-radius: 10px;
+    color: rgb(57, 68, 97);
+    background-color: rgb(247, 247, 247) !important;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.providerComponent:hover {
+    background-color: white !important;
+    color: black;
+}
+
+.btn-secondary {
+    background-color: #dcdce5 !important;
+}
+
+.heroContainer {
+    width: auto;
+    background-color: white;
+}
+
+.herocontainer2 {
+    background: unset;
+    width: 97% !important
+}
+
+p {
+    margin: 0;
+    color: #444;
+}
+
+h1 {
+    margin: 0
+}
+
+.circle {
+    height: 100%;
+    width: 55px;
+    border-radius: 50px;
+    background-color: rgb(218, 218, 218);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatarcontainer {
+    height: 150px;
+    text-align: center;
+    width: fit-content
+}
+
+.providerhero .lilcurve {
+    color: rgb(88, 88, 88) !important;
+}
+
+.providerhero {
+    width: auto;
+    margin: 0 1.5%
+}
+
+.circlebig {
+    height: 100%;
+    width: 150px;
+    border-radius: 100px;
+    background-color: rgb(218, 218, 218);
+    border: 5px solid rgb(39, 39, 39);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.detailText .flex {
+    display: flex;
+}
+
+.shopertext {
+    margin: 10px;
+    font-size: 10pt;
+}
+
+h3 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.active {
+    color: rgb(56, 175, 255);
+    display: block !important;
+}
+
+.cards {
+    width: 100%;
+    color: gray;
+    height: auto;
+    border-width: 0;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+.Shimmer-shimmer-0-1-1 {
+    background-size: none !important;
+}
+
+.hero-item {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 1;
+    filter: grayscale(0);
+    text-align: right;
+    z-index: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.hero-item:hover {
+    background-color: #dcdce5;
+    background-position: top;
+    opacity: 1;
+    filter: grayscale(0);
+}
+
+center {
+    margin: 0%;
+    width: -webkit-fill-available !important
+}
+
+.containers {
+    text-align: left;
+    background: white;
+    color: gray;
+    height: auto;
+    z-index: 1;
+    align-content: flex-end;
+    position: static;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.containers ul {
+    text-align: left;
+}
+
+img {
+    border: none;
+}
+
+customh1 {
+    font-size: 20px;
+    color: white;
+    display: block;
+    text-align: left;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #35373f;
+    width: 40%;
+    background-color: white;
+    font-weight: 500;
+    outline: none;
+    transition: 0.25s;
+    margin: 1%;
+}
+
+button:hover {
+    color: white;
+    background-color: #0a0a0a
+}
+
+a {
+    text-decoration: none;
+}
+
+.searchContainer {
+    width: --webkit-fill-available
+}
+
+input[type="text"] {
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+
+.name {
+    background-color: white;
+}
+
+.cardItems {
+    background-size: unset !important;
+}
+
+.cards:hover {
+    box-shadow: 0px 0px 18px -7px #878787
+}
+
+.searchinput {
+    width: 80%;
+}
+
+a:visited {}
+
+center ul {
+    padding: 0px;
+}
+
+.containers ul {
+    padding: 8px
+}
+
+.lilcurve {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    margin-top: 2%;
+    font-weight: 500;
+}
+
+.lilcurve button {
+    background-color: rgb(236, 236, 236);
+    color: gray;
+    width: 100%;
+}
+
+.containers ul li {
+    padding: 2px;
+    color: gray;
+}
+
+.searchBar {
+    background-color: white;
+    border-radius: 20px;
+}
+
+lil {
+    font-size: 10pt;
+    color: #444;
+    text-align: left;
+}
+
+.name {
+    text-align: left;
+    width: auto;
+    padding: 5px;
+    margin: 0px;
+    font-weight: 300;
+    font-size: 13pt;
+    color: rgb(0, 121, 202);
+    font-family: roboto;
+}
+
+.btn {
+    background: rgb(255, 101, 45);
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: orangered !important;
+}
+
+@media only screen and (min-width: 700px) {
+    center {
+        width: fit-content;
+        height: auto;
+        display: inline-block;
+        margin: 1%
+    }
+    .herocontainer2 {
+        width: 72% !important;
+        margin-top: 1%;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255) !important
+    }
+    .cardItems {
+        width: 32%;
+        display: inline-block;
+        margin: 4px !important;
+        background-size: unset !important;
+        padding: 0px
+    }
+    .hero-item {
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .cardContainer {
+        padding: 0px !important;
+    }
+    .detailCard {
+        width: 80%;
+        height: 50%;
+        background-color: #eee;
+    }
+    .navbar ul li {
+        display: inline;
+    }
+    .flex {
+        display: flex;
+    }
+    .detailText {
+        width: 50%;
+        text-align: left;
+        padding: 10px;
+        border-radius: 15px;
+        margin-left: 1%;
+        background-color: white;
+    }
+    .detailImage {
+        width: 50%;
+        height: auto;
+        background-color: rgb(255, 196, 86);
+    }
+    .cards {
+        border-radius: 5px;
+        margin: 3%;
+        transition: 0.25s;
+    }
+    button {
+        width: 30%;
+    }
+    .navbar {
+        display: inline-block;
+        position: relative;
+    }
+    .active {
+        display: inline !important;
+    }
+    .searchContainer {
+        width: 90%;
+        height: 100%;
+        border-radius: 20px;
+    }
+    .searchBar {
+        width: 50%;
+    }
+    .lilcurve button {
+        background-color: rgb(247, 247, 247);
+        color: gray;
+        width: auto;
+        padding: 15px;
+        font-weight: 700;
+        font-size: 13pt;
+    }
+    .heroContainer {
+        width: 70%;
+    }
+}
